@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfocreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfoparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\jsoncxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfocreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfoparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5F19394-ABD4-3356-8D9A-E73D310E3414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4223CC5A-635B-312B-8135-8F4E0475194B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

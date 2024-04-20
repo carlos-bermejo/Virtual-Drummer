@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\commoniids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\openurl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\systemclipboard_linux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\systemclipboard_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\threadchecker_linux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\threadchecker_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\readfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\vstpresetfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\openurl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\systemclipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\threadchecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\common\readfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\source\vst\vstpresetfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\public.sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5F19394-ABD4-3356-8D9A-E73D310E3414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4223CC5A-635B-312B-8135-8F4E0475194B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

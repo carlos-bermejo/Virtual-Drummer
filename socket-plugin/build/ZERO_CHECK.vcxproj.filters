@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\CMakeFiles\b1c637625bdbdb032c59816c89770eb5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6DBE61A2-786A-3912-8F40-33E4D487D172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
