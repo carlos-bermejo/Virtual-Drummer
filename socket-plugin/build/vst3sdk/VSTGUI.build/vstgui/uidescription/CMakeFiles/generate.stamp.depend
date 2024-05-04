@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/Archivos de Programa 2/cmake-3.28.1/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/FindEXPAT.cmake
+D:/Archivos de Programa 2/cmake-3.28.1/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/Archivos de Programa 2/cmake-3.28.1/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/Archivos de Programa 2/cmake-3.28.1/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/FindPkgConfig.cmake
+D:/Archivos de Programa 2/cmake-3.28.1/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake
+D:/Archivos de Programa 2/vst3 sdk steinberg/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/CMakeLists.txt

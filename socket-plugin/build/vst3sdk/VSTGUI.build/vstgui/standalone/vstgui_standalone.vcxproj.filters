@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\application.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\genericalertbox.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\shareduiresources.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\uidescriptionwindowcontroller.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\window.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\helpers\value.cpp">
+      <Filter>source\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32application.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32async.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32commondirectories.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32menu.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32preference.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32window.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\appinit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\doc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\fwd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ialertbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iappdelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iapplication.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iasync.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\icommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\icommondirectories.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\imenubuilder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\interface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ipreference.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ishareduiresources.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iuidescwindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ivalue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ivaluelistener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iwindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iwindowcontroller.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iwindowlistener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\appdelegate.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\async.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\menubuilder.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\preferences.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\value.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\valuelistener.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\windowcontroller.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\windowlistener.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\uidesc\modelbinding.h">
+      <Filter>include\helpers\uidesc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\uidesc\customization.h">
+      <Filter>include\helpers\uidesc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\application.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\genericalertbox.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\shareduiresources.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\window.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\iplatformwindow.h">
+      <Filter>source\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32async.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32commondirectories.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32menu.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32preference.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32window.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{23E62356-8A82-3D93-A320-392E14F38876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\helpers">
+      <UniqueIdentifier>{C6F30095-C357-3C1F-87C3-CA361CBBCDD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\helpers\uidesc">
+      <UniqueIdentifier>{BD6F20E0-7155-3699-8FFB-6B5607FB9544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{2B3E8EEA-47F6-359E-8E4B-32365DC78397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\helpers">
+      <UniqueIdentifier>{B78CA4CE-E4D2-3FE8-A47A-9194547DC890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform">
+      <UniqueIdentifier>{7F84850F-7192-3175-8E46-51932E93AA57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform\win32">
+      <UniqueIdentifier>{72CE13CC-BC19-3B4E-BBD4-0DC3D291940F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

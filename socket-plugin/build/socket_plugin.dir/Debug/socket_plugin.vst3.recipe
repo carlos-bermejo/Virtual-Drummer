@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\bin\Debug\moduleinfotool.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\bin\Debug\validator.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\VST3\Debug\socket_plugin.vst3\Contents\x86_64-win\socket_plugin.vst3</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,19 @@
+﻿  Building Custom Rule D:/Archivos de Programa 2/vst3 sdk steinberg/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt
+  pluginview.cpp
+  pluginfactory.cpp
+  moduleinit.cpp
+  dataexchange.cpp
+  stringconvert.cpp
+  systemtime.cpp
+  testing.cpp
+  vst2persistence.cpp
+  vstaudioeffect.cpp
+  vstbus.cpp
+  vstcomponent.cpp
+  vstcomponentbase.cpp
+  vsteditcontroller.cpp
+  vstinitiids.cpp
+  vstnoteexpressiontypes.cpp
+  vstparameters.cpp
+  vstrepresentation.cpp
+  sdk.vcxproj -> C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\lib\Release\sdk.lib

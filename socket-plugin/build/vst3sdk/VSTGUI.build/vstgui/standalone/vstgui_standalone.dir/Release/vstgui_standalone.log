@@ -1,0 +1,14 @@
+﻿  Building Custom Rule D:/Archivos de Programa 2/vst3 sdk steinberg/VST_SDK/vst3sdk/vstgui4/vstgui/standalone/CMakeLists.txt
+  application.cpp
+  genericalertbox.cpp
+  shareduiresources.cpp
+  uidescriptionwindowcontroller.cpp
+  window.cpp
+  value.cpp
+  win32application.cpp
+  win32async.cpp
+  win32commondirectories.cpp
+  win32menu.cpp
+  win32preference.cpp
+  win32window.cpp
+  vstgui_standalone.vcxproj -> C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\lib\Release\vstgui_standalone.lib

@@ -1,0 +1,3447 @@
+﻿  Generating VST3/Release/socket_plugin.vst3/Contents/Resources/plug_editor.uidesc
+  [SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/plug_editor.uidesc to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/plug_editor.uidesc
+  Generating VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png
+  [SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png
+  Generating VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png
+  [SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png
+  Building Custom Rule C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/CMakeLists.txt
+  plug_processor.cpp
+  plug_controller.cpp
+  plug_entry.cpp
+  dllmain.cpp
+C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\source\plug_processor.cpp(65,25): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+     Creando biblioteca C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/lib/Release/socket_plugin.lib y objeto C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/lib/Release/socket_plugin.exp
+  socket_plugin.vcxproj -> C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\VST3\Release\socket_plugin.vst3\Contents\x86_64-win\socket_plugin.vst3
+  [SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.			
+  [SMTG] Validator started...
+  * Loading module...
+  
+  	C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/x86_64-win/socket_plugin.vst3
+  
+  * Scanning classes...
+  
+    Factory Info:
+  	vendor = Carlos Bermejo
+  	url = https://www.github.com/carlos-bermejo
+  	email = mailto:deynox.sw@gmail.com
+  
+    Class Info 0:
+  	name = socket-plugin
+  	category = Audio Module Class
+  	subCategories = Instrument
+  	version = 1.0.0.0
+  	sdkVersion = VST 3.7.10
+  	cid = E14C8B5BA50159B6AF44B15F5E925D59
+  
+    Class Info 1:
+  	name = socket-pluginController
+  	category = Component Controller Class
+  	subCategories = 
+  	version = 1.0.0.0
+  	sdkVersion = VST 3.7.10
+  	cid = ACB17582B95F5A5AABAB5F0DBF0E4E1F
+  
+  * Checking snapshots...
+  
+  Found snapshots for 'socket-plugin'
+   - C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png [1x]
+   - C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png [2x]
+  
+  * Creating tests...
+  
+  * Running tests...
+  
+  -------------------------------------------------------------
+  TestSuite : socket-plugin
+  -------------------------------------------------------------
+  
+  -------------------------------------------------------------
+  TestSuite : General Tests
+  -------------------------------------------------------------
+  
+  [Scan Editor Classes]
+  Error opening log file!
+  Unable to connect to server: 10061
+  Error opening log file!
+  Info:  ===Scan Editor Classes ====================================
+  Info:  This component has an edit controller class
+  Info:     Controller CID: {ACB17582-B95F-5A5A-ABAB-5F0DBF0E4E1F}
+  [Succeeded]
+  
+  [Scan Buses]
+  Info:  ===Scan Buses ====================================
+  Info:  => Audio Buses: [1 In(s) => 1 Out(s)]
+  Info:       In [0]: "Stereo In" (Main-Default Active) 
+  Info:       Out[0]: "Stereo Out" (Main-Default Active) 
+  Info:  => Event Buses: [1 In(s) => 0 Out(s)]
+  Info:       In [0]: "Event Input" (Main-Default Active) 
+  [Succeeded]
+  
+  [Scan Parameters]
+  Info:  ===Scan Parameters ====================================
+  Info:  This component does not export any parameters!
+  [Succeeded]
+  
+  [MIDI Mapping]
+  Info:  ===MIDI Mapping ====================================
+  Info:  No MIDI Mapping interface supplied!
+  [Succeeded]
+  
+  [MIDI Learn]
+  Info:  ===MIDI Learn ====================================
+  Info:  No MIDI Learn interface supplied!
+  [Succeeded]
+  
+  [Scan Units]
+  Info:  ===Scan Units ====================================
+  Info:  This component has no units.
+  [Succeeded]
+  
+  [Scan Programs]
+  Info:  ===Scan Programs ====================================
+  Info:  This component does not export any programs.
+  [Succeeded]
+  
+  [Terminate/Initialize]
+  Info:  ===Terminate/Initialize ====================================
+  Error opening log file!
+  Unable to connect to server: 10061
+  Error opening log file!
+  [Succeeded]
+  
+  [Check Unit Structure]
+  Info:  ===Check Unit Structure ====================================
+  Info:  This component does not support IUnitInfo!
+  [Succeeded]
+  
+  [Valid State Transition 32bits]
+  Info:  ===Valid State Transition 32bits ====================================
+  Error opening log file!
+  Unable to connect to server: 10061
+  Error opening log file!
+  Error opening log file!
+  Unable to connect to server: 10061
+  Error opening log file!
+  Error opening log file!
+  Unable to connect to server: 10061
+  [Succeeded]
+  
+  [Valid State Transition 64bits]
+  Info:  ===Valid State Transition 64bits ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  Error opening log file!
+  [Bus Consistency]
+  Info:  ===Bus Consistency ====================================
+  [Succeeded]
+  
+  [Bus Activation]
+  Info:  ===Bus Activation ====================================
+  Info:     Bus Activation: Input Audio Bus (0) (kMain)
+  Info:     Bus Activation: Output Audio Bus (0) (kMain)
+  Info:     Bus Activation: Input Event Bus (0) (kMain)
+  [Succeeded]
+  
+  [Check Audio Bus Arrangement]
+  Info:  ===Check Audio Bus Arrangement ====================================
+  Info:     Check Input Audio Bus Arrangement (0)
+  Info:     Check Output Audio Bus Arrangement (0)
+  [Succeeded]
+  
+  [SideChain Arrangement]
+  Info:  ===SideChain Arrangement ====================================
+  [Succeeded]
+  
+  [Suspend/Resume]
+  Info:  ===Suspend/Resume ====================================
+  [Succeeded]
+  
+  [Note Expression]
+  Info:  ===Note Expression ====================================
+  Info:  No Note Expression interface supplied!
+  [Succeeded]
+  
+  [Keyswitch]
+  Info:  ===Keyswitch ====================================
+  Info:  No Keyswitch interface supplied!
+  [Succeeded]
+  
+  [ProcessContext Requirements]
+  Info:  ===ProcessContext Requirements ====================================
+  Info:  ProcessContextRequirements:
+  Info:   - None
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Single Precision (32 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : IAudioProcessor::process (..with kSample32..) failed.
+  [XXXXXXX Failed]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : Processing failed.
+  [XXXXXXX Failed]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : The component failed to process bus 0 with silence flag combination 0!
+  [XXXXXXX Failed]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : The component failed to process!
+  [XXXXXXX Failed]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  Error opening log file!
+  [Succeeded]
+  Error opening log file!
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  Error opening log file!
+  [Succeeded]
+  Error opening log file!
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  Error opening log file!
+  [Succeeded]
+  Error opening log file!
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : The component failed to process an audioblock of size 288
+  [XXXXXXX Failed]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 22050 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 32000 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 44100 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 48000 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 88200 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 96000 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 192000 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 384000 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 1234.5678 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 12345.678 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 123456.78 Hz - failed to process!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : 1234567.8 Hz - failed to process!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  Info:  This plugin does not have a bypass parameter!!!
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : IAudioProcessor::process (..with kSample32..) failed.
+  [XXXXXXX Failed]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : IAudioProcessor::process (..with kSample32..) failed.
+  [XXXXXXX Failed]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, All Parameters, Change every100 Samples ====================================
+  Info:  No Parameters present.
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : IAudioProcessor::process (..with kSample32..) failed.
+  [XXXXXXX Failed]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, All Parameters, Change every100 Samples ====================================
+  Info:  No Parameters present.
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+  Error opening log file!
+EXEC : error : IAudioProcessor::process (..with kSample32..) failed.
+  [XXXXXXX Failed]
+  
+  -------------------------------------------------------------
+  TestSuite : Double Precision (64 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Process Format]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, All Parameters, Change every100 Samples ====================================
+  Info:  No Parameters present.
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, All Parameters, Change every100 Samples ====================================
+  Info:  No Parameters present.
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  Result: 38 tests passed, 9 tests failed
+  -------------------------------------------------------------
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: El comando "setlocal
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E copy "D:/Archivos de Programa 2/vst3 sdk steinberg/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico" C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/PlugIn.ico
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E copy "D:/Archivos de Programa 2/vst3 sdk steinberg/VST_SDK/vst3sdk/cmake/modules/../templates/desktop.ini.in" C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/desktop.ini
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: attrib +s C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/desktop.ini
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: attrib +s C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/PlugIn.ico
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: attrib +s C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: cd C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\bin
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\bin\Release\moduleinfotool.exe -create -version 1.0.0.0 -path C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3 -output C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/moduleinfo.json
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: cd C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\bin
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo [SMTG] Validator started...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\bin\Release\validator.exe C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/x86_64-win/socket_plugin.vst3
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo [SMTG] Validator finished.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo [SMTG] Delete previous link...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E rm -rf C:/Users/34638/AppData/Local/Programs/Common/VST3/socket_plugin.vst3
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo [SMTG] Creation of the new link...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E create_symlink  C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3 C:/Users/34638/AppData/Local/Programs/Common/VST3/socket_plugin.vst3
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo [SMTG] Finished.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" salió con el código -1.
