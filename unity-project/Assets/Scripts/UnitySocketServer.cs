@@ -4,6 +4,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
+using System.Text.RegularExpressions;
 
 public class UnitySocketServer : MonoBehaviour
 {
@@ -54,7 +55,26 @@ public class UnitySocketServer : MonoBehaviour
     {
         while (messageQueue.TryDequeue(out string data))
         {
-            //MiPrograma.Run("# " + data);
+            string patronPitch = @"Pitch:\s*(\d+)";
+            string patronVelocity = @"Velocity:\s*(\d+)";
+
+            Match matchPitch = Regex.Match(data, patronPitch);
+            Match matchVelocity = Regex.Match(data, patronVelocity);
+
+            int pitch = 0;
+            int velocity = 0;
+
+            if (matchPitch.Success)
+            {
+                pitch = int.Parse(matchPitch.Groups[1].Value);
+            }
+
+            if (matchVelocity.Success)
+            {
+                velocity = int.Parse(matchVelocity.Groups[1].Value);
+            }
+
+            MidiMapper.MapMidiToAction(pitch, velocity);
         }
     }
 }
