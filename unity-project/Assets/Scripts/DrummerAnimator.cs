@@ -1,80 +1,146 @@
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class DrummerAnimator : MonoBehaviour
 {
 
-    public static void HitInstrument(GameObject target, Vector3 instrumentPosition, string rotationDirection = "LEFT", float movementSpeed = 20f)
+    private static GameObject handTarget;
+    private static GameObject footTarget;
+    private static GameObject kneeTarget;
+    private static GameObject currentInstrument;
+    private static GameObject originalHandPosition;
+    private static GameObject originalFootPosition;
+    private static GameObject originalKneePosition;
+    private static float speedFactor = 20f;
+    private static bool isResting;
+
+
+    public static DrummerAnimator Instance;
+
+    void Awake()
     {
-        if (target == null)
-        {
-            Debug.LogError("Target GameObject is null.");
-            return;
-        }
-
-        // Calculate total distance and time
-        float totalDistance = Vector3.Distance(target.transform.position, instrumentPosition);
-        float totalTime = totalDistance / movementSpeed;
-
-        // Speed factor calculation
-        float speedFactor = Time.deltaTime / totalTime;
-
-        // Determine target rotation
-        Quaternion targetRotation = Quaternion.identity;
-        if (rotationDirection == "LEFT")
-            targetRotation = Quaternion.Euler(0f, -90f, 0f);
-        else if (rotationDirection == "RIGHT")
-            targetRotation = Quaternion.Euler(0f, 90f, 0f);
-
-        // Turn if necessary
-        if (Quaternion.Angle(target.transform.rotation, targetRotation) > 0.1f)
-        {
-            target.transform.rotation = Quaternion.Lerp(target.transform.rotation, targetRotation, speedFactor);
-        }
-
-        // Move towards instrument position
-        target.transform.position = Vector3.Lerp(target.transform.position, instrumentPosition, speedFactor);
-
-        // Ensure target reached instrument position
-        if (Vector3.Distance(target.transform.position, instrumentPosition) < 0.01f)
-        {
-            // Reset position
-            target.transform.position = instrumentPosition;
-        }
+        Instance = this;
     }
 
-    public static void HitPedal(GameObject footTarget, GameObject kneeTarget, float pedalSpeed = 55f)
+    public void HitInstrument(GameObject target, GameObject instrument, GameObject originalPosition)
     {
-        if (footTarget == null || kneeTarget == null)
+        if (target == null || instrument == null)
         {
-            Debug.LogError("FootTarget or KneeTarget GameObject is null.");
+            Debug.LogError("Target and/or instrument GameObject are null in HitInstrument call.");
             return;
         }
 
+        isResting = false;
 
-        Vector3 originalFootPosition = footTarget.transform.position;
-        Vector3 originalKneePosition = kneeTarget.transform.position;
+        handTarget = target;
+        footTarget = null;
+        kneeTarget = null;
+        currentInstrument = instrument;
 
-        Vector3 pedalKneePosition = originalKneePosition + Vector3.up * 0.1f;
-        Vector3 pedalFootPosition = originalFootPosition + Vector3.up * 0.1f;
+        originalHandPosition = originalPosition;
 
-        footTarget.transform.position = Vector3.Lerp(originalFootPosition, pedalFootPosition, pedalSpeed * Time.deltaTime);
-        kneeTarget.transform.position = Vector3.Lerp(originalKneePosition, pedalKneePosition, pedalSpeed * Time.deltaTime);
+    }
 
-        if (Vector3.Distance(footTarget.transform.position, pedalFootPosition) < 0.01f)
+    public static void HitPedal(GameObject currentFootTarget, GameObject currentKneeTarget, GameObject originalPosition, GameObject originaSecondarylPosition, GameObject currentHandTarget = null, GameObject instrument = null, GameObject originalCurrentHandPosition = null)
+    {
+        if (currentFootTarget == null || currentKneeTarget == null)
         {
-            Vector3 returnFootPosition = originalFootPosition;
-            Vector3 returnKneePosition = originalKneePosition;
+            Debug.LogError("FootTarget and/or KneeTarget GameObject is null in HitPedal.");
+            return;
+        }
+        isResting = false;
 
-            footTarget.transform.position = Vector3.Lerp(pedalFootPosition, returnFootPosition, pedalSpeed * Time.deltaTime);
-            kneeTarget.transform.position = Vector3.Lerp(pedalKneePosition, returnKneePosition, pedalSpeed * Time.deltaTime);
+        footTarget = currentFootTarget;
+        kneeTarget = currentKneeTarget;
 
-            if (Vector3.Distance(footTarget.transform.position, returnFootPosition) < 0.01f)
+        //if hits pedal and also instrument
+        if(currentHandTarget != null && instrument != null && originalCurrentHandPosition != null)
+        {
+            handTarget = currentHandTarget;
+            currentInstrument = instrument;
+            originalHandPosition = originalCurrentHandPosition;
+        } else
+        {
+            handTarget=null;
+        }
+
+        originalFootPosition = originalPosition;
+        originalKneePosition = originaSecondarylPosition;
+    }
+
+    private void Update()
+    {
+        if (isResting == false)
+        {
+            if (handTarget != null && footTarget == null)
             {
-                footTarget.transform.position = returnFootPosition;
-                kneeTarget.transform.position = returnKneePosition;
+                //----INSTRUMENT-----
+                MoveHand();
+            }
+            else if (footTarget != null && kneeTarget != null)
+            {
+                //----PEDAL-----
+                if (handTarget != null)
+                {
+                    MoveHand();
+                    MoveFootAndKnee();
+                } else
+                {
+                    MoveFootAndKnee();
+                }
             }
         }
     }
+
+    void MoveHand()
+    {
+        // turn target if necessary
+        if (Quaternion.Angle(handTarget.transform.rotation, currentInstrument.transform.rotation) > 0.1f)
+        {
+            handTarget.transform.rotation = Quaternion.Lerp(handTarget.transform.rotation, currentInstrument.transform.rotation, Mathf.SmoothStep(0, 1, speedFactor));
+        }
+
+        handTarget.transform.position = Vector3.MoveTowards(handTarget.transform.position, currentInstrument.transform.position + Vector3.up * 0.2f, Mathf.SmoothStep(0, 1, speedFactor));
+
+        // when its close enough, change direction to the actual instrument position
+        if (Vector3.Distance(handTarget.transform.position, currentInstrument.transform.position + Vector3.up * 0.2f) < 0.01f)
+        {
+            handTarget.transform.position = Vector3.MoveTowards(currentInstrument.transform.position + Vector3.up * 0.2f, currentInstrument.transform.position, Mathf.SmoothStep(0, 1, speedFactor));
+
+            // when its close enough, return to original position
+            if (Vector3.Distance(handTarget.transform.position, currentInstrument.transform.position) < 0.01f)
+            {
+                Invoke("ResetPosition", 0.05f);
+            }
+        }
+    }
+
+    void MoveFootAndKnee()
+    {
+        //move up
+        footTarget.transform.position = Vector3.MoveTowards(footTarget.transform.position, originalFootPosition.transform.position + Vector3.up * 0.2f, speedFactor);
+        kneeTarget.transform.position = Vector3.MoveTowards(kneeTarget.transform.position, originalKneePosition.transform.position + Vector3.up * 0.2f, speedFactor);
+
+        //move down again
+        if (Vector3.Distance(footTarget.transform.position, originalFootPosition.transform.position + Vector3.up * 0.2f) < 0.01f)
+        {
+            Invoke("ResetPosition", 0.1f);
+        }
+    }
+
+    void ResetPosition()
+    {
+        if(handTarget != null)
+            handTarget.transform.position = Vector3.MoveTowards(handTarget.transform.position, originalHandPosition.transform.position, Mathf.SmoothStep(0, 1, speedFactor*10));
+        if(footTarget != null && kneeTarget != null)
+        {
+            footTarget.transform.position = Vector3.MoveTowards(footTarget.transform.position, originalFootPosition.transform.position, Mathf.SmoothStep(0, 1, speedFactor * 10));
+            kneeTarget.transform.position = Vector3.MoveTowards(kneeTarget.transform.position, originalKneePosition.transform.position, Mathf.SmoothStep(0, 1, speedFactor * 10));
+        }
+        isResting = true;
+    }
+
+    
 
 
     // Start is called before the first frame update
@@ -83,9 +149,4 @@ public class DrummerAnimator : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -6,25 +6,30 @@ using UnityEngine;
 public class TestMidiSender : MonoBehaviour
 {
 
-    public float intervalInSeconds; // Intervalo en segundos entre cada nota
-    public int noteToSend; // Nota MIDI a enviar
+    private MidiMapper midiMapper;
+    public float intervalInSeconds;
+    public int[] notesToSend = new int[5];
 
     private void Start()
     {
-        // Comienza la corrutina que envía las notas
+        midiMapper = FindObjectOfType<MidiMapper>();
+        if (midiMapper == null)
+        {
+            Debug.LogError("No object of type MidiMapper found in scene for TestMidiSender.");
+        }
         StartCoroutine(SendNotesRoutine());
     }
 
     private IEnumerator SendNotesRoutine()
     {
-        // Repite indefinidamente
         while (true)
         {
-            // Espera el intervalo especificado
-            yield return new WaitForSeconds(intervalInSeconds);
-
-            // Llama al método MapMidiToAction del MidiMapper para enviar la nota
-            MidiMapper.MapMidiToAction(noteToSend, 1f);
+            for (int i = 0; i < notesToSend.Length; i++)
+            {
+                yield return new WaitForSeconds(intervalInSeconds);
+                midiMapper.MapMidiToAction(notesToSend[i], 1f);
+            }
+            
         }
     }
 }

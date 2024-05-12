@@ -11,9 +11,15 @@ public class UnitySocketServer : MonoBehaviour
     public int port = 12345;
     private TcpListener listener;
     private ConcurrentQueue<string> messageQueue = new ConcurrentQueue<string>();
+    private MidiMapper midiMapper;
 
     void Start()
     {
+        midiMapper = FindObjectOfType<MidiMapper>();
+        if (midiMapper == null)
+        {
+            Debug.LogError("No object of type MidiMapper found in scene for UnitySocketServer.");
+        }
         StartServer();
     }
 
@@ -55,6 +61,7 @@ public class UnitySocketServer : MonoBehaviour
     {
         while (messageQueue.TryDequeue(out string data))
         {
+            //gets pitch and velocity from any string message
             string patronPitch = @"Pitch:\s*(\d+)";
             string patronVelocity = @"Velocity:\s*(\d+)";
 
@@ -74,7 +81,7 @@ public class UnitySocketServer : MonoBehaviour
                 velocity = int.Parse(matchVelocity.Groups[1].Value);
             }
 
-            MidiMapper.MapMidiToAction(pitch, velocity);
+            midiMapper.MapMidiToAction(pitch, velocity);
         }
     }
 }
