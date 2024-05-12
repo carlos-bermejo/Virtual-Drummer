@@ -13,6 +13,7 @@ public class DrummerAnimator : MonoBehaviour
     private static GameObject originalKneePosition;
     private static float speedFactor = 20f;
     private static bool isResting;
+    public GameObject head;
 
 
     public static DrummerAnimator Instance;
@@ -75,6 +76,7 @@ public class DrummerAnimator : MonoBehaviour
             if (handTarget != null && footTarget == null)
             {
                 //----INSTRUMENT-----
+                MoveHead();
                 MoveHand();
             }
             else if (footTarget != null && kneeTarget != null)
@@ -82,6 +84,7 @@ public class DrummerAnimator : MonoBehaviour
                 //----PEDAL-----
                 if (handTarget != null)
                 {
+                    MoveHead();
                     MoveHand();
                     MoveFootAndKnee();
                 } else
@@ -125,6 +128,14 @@ public class DrummerAnimator : MonoBehaviour
         if (Vector3.Distance(footTarget.transform.position, originalFootPosition.transform.position + Vector3.up * 0.2f) < 0.01f)
         {
             Invoke("ResetPosition", 0.1f);
+        }
+    }
+
+    void MoveHead()
+    {
+        if (Quaternion.Angle(head.transform.rotation, currentInstrument.transform.rotation) > 0.1f)
+        {
+            head.transform.rotation = Quaternion.Lerp(head.transform.rotation, currentInstrument.transform.rotation, Mathf.SmoothStep(0, 1, speedFactor));
         }
     }
 
