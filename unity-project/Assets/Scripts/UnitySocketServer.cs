@@ -81,6 +81,7 @@ public class UnitySocketServer : MonoBehaviour
                 velocity = int.Parse(matchVelocity.Groups[1].Value);
             }
 
+            ShowDataOnScreen.ShowDataOnText("" + pitch);
             midiMapper.MapMidiToAction(pitch, velocity);
         }
     }
