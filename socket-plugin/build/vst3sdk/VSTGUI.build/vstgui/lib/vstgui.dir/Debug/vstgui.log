@@ -1,0 +1,94 @@
+﻿  Building Custom Rule D:/Archivos de Programa 2/vst3 sdk steinberg/VST_SDK/vst3sdk/vstgui4/vstgui/lib/CMakeLists.txt
+  animations.cpp
+  animator.cpp
+  timingfunctions.cpp
+  cbitmap.cpp
+  cbitmapfilter.cpp
+  cclipboard.cpp
+  ccolor.cpp
+  cdatabrowser.cpp
+  cdrawcontext.cpp
+  cdrawmethods.cpp
+  cdropsource.cpp
+  cexternalview.cpp
+  cfileselector.cpp
+  cfont.cpp
+  cframe.cpp
+  cgradient.cpp
+  cgradientview.cpp
+  cgraphicspath.cpp
+  clayeredviewcontainer.cpp
+  clinestyle.cpp
+  coffscreencontext.cpp
+  cautoanimation.cpp
+  cbuttons.cpp
+  ccolorchooser.cpp
+  ccontrol.cpp
+  cfontchooser.cpp
+  cknob.cpp
+  clistcontrol.cpp
+  cmoviebitmap.cpp
+  cmoviebutton.cpp
+  coptionmenu.cpp
+  cparamdisplay.cpp
+  cscrollbar.cpp
+  csearchtextedit.cpp
+  csegmentbutton.cpp
+  cslider.cpp
+  cspecialdigit.cpp
+  csplashscreen.cpp
+  cstringlist.cpp
+  cswitch.cpp
+  ctextedit.cpp
+  ctextlabel.cpp
+  cvumeter.cpp
+  cxypad.cpp
+  copenglview.cpp
+  cpoint.cpp
+  crect.cpp
+  crowcolumnview.cpp
+  cscrollview.cpp
+  cshadowviewcontainer.cpp
+  csplitview.cpp
+  cstring.cpp
+  ctabview.cpp
+  ctooltipsupport.cpp
+  cview.cpp
+  cviewcontainer.cpp
+  cvstguitimer.cpp
+  events.cpp
+  genericstringlistdatabrowsersource.cpp
+  pixelbuffer.cpp
+  platformfactory.cpp
+  fileresourceinputstream.cpp
+  genericoptionmenu.cpp
+  generictextedit.cpp
+  vstguidebug.cpp
+  vstguiinit.cpp
+  d2dbitmap.cpp
+  d2dbitmapcache.cpp
+  d2dfont.cpp
+  d2dgradient.cpp
+  d2dgraphicscontext.cpp
+  d2dgraphicspath.cpp
+  win32datapackage.cpp
+  win32directcomposition.cpp
+D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\lib\cview.h(406,2): warning C4996: 'VSTGUI::IViewMouseListener': Use IViewListener/IViewEventListener instead
+  (compilando archivo de origen "D:/Archivos%20de%20Programa%202/vst3%20sdk%20steinberg/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/common/genericoptionmenu.cpp")
+  
+D:\Archivos de Programa 2\vst3 sdk steinberg\VST_SDK\vst3sdk\vstgui4\vstgui\lib\cview.h(408,2): warning C4996: 'VSTGUI::IViewMouseListener': Use IViewListener/IViewEventListener instead
+  (compilando archivo de origen "D:/Archivos%20de%20Programa%202/vst3%20sdk%20steinberg/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/common/genericoptionmenu.cpp")
+  
+  win32dragging.cpp
+  win32factory.cpp
+  win32frame.cpp
+  win32openglview.cpp
+  win32optionmenu.cpp
+  win32resourcestream.cpp
+  win32support.cpp
+  win32textedit.cpp
+  win32viewlayer.cpp
+  winfileselector.cpp
+  winstring.cpp
+  wintimer.cpp
+  vstgui.vcxproj -> C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\build\lib\Debug\vstgui.lib

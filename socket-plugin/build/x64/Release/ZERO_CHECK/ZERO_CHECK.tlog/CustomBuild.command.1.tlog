@@ -1,0 +1,10 @@
+^C:\USERS\34638\DESKTOP\TFG\REPO\VIRTUAL-DRUMMER\SOCKET-PLUGIN\BUILD\CMAKEFILES\B1C637625BDBDB032C59816C89770EB5\GENERATE.STAMP.RULE
+setlocal
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -SC:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin -BC:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/socket_plugin.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

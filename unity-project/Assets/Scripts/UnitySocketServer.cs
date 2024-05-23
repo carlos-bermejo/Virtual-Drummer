@@ -4,15 +4,22 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
+using System.Text.RegularExpressions;
 
 public class UnitySocketServer : MonoBehaviour
 {
     public int port = 12345;
     private TcpListener listener;
     private ConcurrentQueue<string> messageQueue = new ConcurrentQueue<string>();
+    private MidiMapper midiMapper;
 
     void Start()
     {
+        midiMapper = FindObjectOfType<MidiMapper>();
+        if (midiMapper == null)
+        {
+            Debug.LogError("No object of type MidiMapper found in scene for UnitySocketServer.");
+        }
         StartServer();
     }
 
@@ -54,7 +61,28 @@ public class UnitySocketServer : MonoBehaviour
     {
         while (messageQueue.TryDequeue(out string data))
         {
-            //MiPrograma.Run("# " + data);
+            //gets pitch and velocity from any string message
+            string patronPitch = @"Pitch:\s*(\d+)";
+            string patronVelocity = @"Velocity:\s*(\d+)";
+
+            Match matchPitch = Regex.Match(data, patronPitch);
+            Match matchVelocity = Regex.Match(data, patronVelocity);
+
+            int pitch = 0;
+            int velocity = 0;
+
+            if (matchPitch.Success)
+            {
+                pitch = int.Parse(matchPitch.Groups[1].Value);
+            }
+
+            if (matchVelocity.Success)
+            {
+                velocity = int.Parse(matchVelocity.Groups[1].Value);
+            }
+
+            ShowDataOnScreen.ShowDataOnText("" + pitch);
+            midiMapper.MapMidiToAction(pitch, velocity);
         }
     }
 }

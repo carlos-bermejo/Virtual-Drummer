@@ -1,0 +1,10 @@
+^D:\ARCHIVOS DE PROGRAMA 2\VST3 SDK STEINBERG\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST-UTILITIES\MODULEINFOTOOL\CMAKELISTS.TXT
+setlocal
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -SC:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin -BC:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build --check-stamp-file C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

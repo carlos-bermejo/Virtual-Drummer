@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 1b8e175e20b4d1b4f8fefb3e2454c5e4
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperArm' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: LowPoly(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.001
+      parentName: LowPoly(Clone)
+      position: {x: -0, y: -0.000000014901161, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: LowPoly(Clone)
+      position: {x: 0, y: 6.0132556, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1.4679451, y: 1.4679451, z: 1.4679451}
+    - name: Centro
+      parentName: Armature
+      position: {x: -0, y: -0.085911974, z: 0}
+      rotation: {x: 0.74214786, y: -0.00000007989842, z: -0.00000008847094, w: 0.6702363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TorsoBajo
+      parentName: Centro
+      position: {x: -1.3839401e-15, y: 0.779089, z: -0.000000007450581}
+      rotation: {x: -0.034406774, y: 0.000000119138754, z: 0.000000004101608, w: 0.99940795}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: TorsoAlto
+      parentName: TorsoBajo
+      position: {x: -0, y: 0.6869976, z: -0.000000014901161}
+      rotation: {x: -0.030816503, y: -0.00000011915271, z: 0.0000000036736127, w: 0.99952507}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Pecho
+      parentName: TorsoAlto
+      position: {x: -2.5937258e-15, y: 0.65591466, z: -0.000000007450581}
+      rotation: {x: -0.13485675, y: 0.00000023624072, z: -1.1718446e-17, w: 0.9908651}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Cuello
+      parentName: Pecho
+      position: {x: -2.3910009e-14, y: 0.90097064, z: 0.000000029802322}
+      rotation: {x: 0.31935075, y: -0.0000002259343, z: 4.5259274e-15, w: 0.9476366}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cabeza
+      parentName: Cuello
+      position: {x: 1.1617129e-14, y: 0.36722416, z: -0.000000074505806}
+      rotation: {x: -0.05712315, y: 5.24002e-14, z: 0.00000001361922, w: 0.99836713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cabeza_end
+      parentName: Cabeza
+      position: {x: -0, y: 0.9069779, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Brazo
+      parentName: Armature
+      position: {x: -0.80997914, y: 0.12521303, z: 2.571739}
+      rotation: {x: 0.30008754, y: -0.6270323, z: 0.65990424, w: 0.28513917}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: L.Antebrazo
+      parentName: L.Brazo
+      position: {x: 0.00000023909342, y: 1.03331, z: -0.0000000037252903}
+      rotation: {x: 0.08323047, y: -0.002302442, z: -0.017027015, w: 0.9963822}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: L.Palma
+      parentName: L.Antebrazo
+      position: {x: 0.0000003073376, y: 1.41279, z: 0.000000037252903}
+      rotation: {x: -0.03528498, y: 0.0034884945, z: 0.04789495, w: 0.9982229}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: L.Palma_end
+      parentName: L.Palma
+      position: {x: -0, y: 0.47279063, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Menique
+      parentName: Armature
+      position: {x: -3.0242846, y: -0.12121999, z: 0.6375618}
+      rotation: {x: 0.26819035, y: -0.6536805, z: 0.6597956, w: 0.25582325}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: L.Menique2
+      parentName: L.Menique
+      position: {x: 0.00000022735912, y: 0.092555664, z: -0.000000013213139}
+      rotation: {x: -0.013477118, y: 0.0009402847, z: 0.038753808, w: 0.9991575}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: L.Menique3
+      parentName: L.Menique2
+      position: {x: 0.00000023015309, y: 0.12831382, z: -0.0000000119325705}
+      rotation: {x: -0.030298991, y: 0.004654897, z: -0.0011786885, w: 0.99952936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Menique3_end
+      parentName: L.Menique3
+      position: {x: -0, y: 0.088425055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Anular
+      parentName: Armature
+      position: {x: -3.030256, y: -0.24010418, z: 0.6375052}
+      rotation: {x: 0.26675832, y: -0.64410573, z: 0.67390275, w: 0.24458732}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: L.Anular2
+      parentName: L.Anular
+      position: {x: 0.00000025960617, y: 0.102297224, z: -0.0000000018626451}
+      rotation: {x: -0.012770673, y: 0.0052705873, z: 0.016669357, w: 0.99976563}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: L.Anular3
+      parentName: L.Anular2
+      position: {x: 0.00000016624108, y: 0.16381457, z: -0.000000007450581}
+      rotation: {x: -0.00027684617, y: 0.04270644, z: -0.019252235, w: 0.99890214}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999976}
+    - name: L.Anular3_end
+      parentName: L.Anular3
+      position: {x: -0, y: 0.104489006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.DedoMedio
+      parentName: Armature
+      position: {x: -3.030256, y: -0.3491333, z: 0.65198314}
+      rotation: {x: 0.2524954, y: -0.6503493, z: 0.67847353, w: 0.23014235}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L.DedoMedio2
+      parentName: L.DedoMedio
+      position: {x: 0.0000002370216, y: 0.107499875, z: 0.000000016763806}
+      rotation: {x: 0.03085436, y: 0.0050595924, z: 0.0024049082, w: 0.9995082}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: L.DedoMedio3
+      parentName: L.DedoMedio2
+      position: {x: -0.00000009755604, y: 0.16789125, z: -0.000000014901161}
+      rotation: {x: -0.0044936477, y: 0.04118734, z: -0.030086948, w: 0.9986882}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: L.DedoMedio3_end
+      parentName: L.DedoMedio3
+      position: {x: -0, y: 0.10431508, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Indice
+      parentName: Armature
+      position: {x: -3.030256, y: -0.46029213, z: 0.65198314}
+      rotation: {x: 0.26106864, y: -0.6172961, z: 0.71043545, w: 0.21463963}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: L.Indice2
+      parentName: L.Indice
+      position: {x: 0.00000008009374, y: 0.08883657, z: 0.000000018626451}
+      rotation: {x: 0.0014369475, y: 0.0050937934, z: -0.034993615, w: 0.9993735}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L.Indice3
+      parentName: L.Indice2
+      position: {x: 0.0000002378365, y: 0.16918296, z: -0.000000007450581}
+      rotation: {x: -0.01706929, y: 0.039907448, z: 0.012272073, w: 0.99898225}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: L.Indice3_end
+      parentName: L.Indice3
+      position: {x: -0, y: 0.11070905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Pulgar
+      parentName: Armature
+      position: {x: -2.8980012, y: -0.5495421, z: 0.8195915}
+      rotation: {x: 0.28000262, y: -0.51484185, z: 0.7931167, w: 0.16583811}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L.Pulgar2
+      parentName: L.Pulgar
+      position: {x: 0.000000016763806, y: 0.119210064, z: 0.000000022351742}
+      rotation: {x: -0.0848682, y: -0.0012994198, z: -0.040230215, w: 0.9955789}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: L.Pulgar3
+      parentName: L.Pulgar2
+      position: {x: 0.0000003449095, y: 0.16965814, z: -0.000000044703484}
+      rotation: {x: -0.026728734, y: 0.003874083, z: 0.035824694, w: 0.9989931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Pulgar3_end
+      parentName: L.Pulgar3
+      position: {x: -0, y: 0.06305919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Pierna
+      parentName: Armature
+      position: {x: -0.43802705, y: -0.12063351, z: -0.01875607}
+      rotation: {x: -0.035083126, y: 0.7559925, z: -0.65209514, w: -0.044906158}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: L.Pantorrilla
+      parentName: L.Pierna
+      position: {x: -0.000000019092113, y: 1.6874257, z: -0.000000017695129}
+      rotation: {x: 0.024741955, y: -0.0007808987, z: 0.010052088, w: 0.9996431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.PlantaDePie
+      parentName: L.Pantorrilla
+      position: {x: -0.000000029802322, y: 2.2509537, z: 0.000000014901161}
+      rotation: {x: 0.68761814, y: 0.000000034039907, z: 0.01418455, w: 0.725934}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: L.DedosDePie
+      parentName: L.PlantaDePie
+      position: {x: -0.000000010826625, y: 0.46032658, z: 0.00000016018748}
+      rotation: {x: 0.0021028575, y: 0.000000005151425, z: -0.00015205883, w: 0.9999978}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: L.DedosDePie_end
+      parentName: L.DedosDePie
+      position: {x: -0, y: 0.42071322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Brazo
+      parentName: Armature
+      position: {x: 0.80997914, y: 0.12521303, z: 2.571739}
+      rotation: {x: -0.30008754, y: -0.6270323, z: 0.65990424, w: -0.28513917}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: R.Antebrazo
+      parentName: R.Brazo
+      position: {x: -0.00000023909342, y: 1.03331, z: -0.0000000037252903}
+      rotation: {x: 0.08323047, y: 0.002302442, z: 0.017027015, w: 0.9963822}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: R.Palma
+      parentName: R.Antebrazo
+      position: {x: -0.0000003073376, y: 1.41279, z: 0.000000037252903}
+      rotation: {x: -0.03528498, y: -0.0034884945, z: -0.04789495, w: 0.9982229}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: R.Palma_end
+      parentName: R.Palma
+      position: {x: -0, y: 0.47279063, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Menique
+      parentName: Armature
+      position: {x: 3.0242846, y: -0.12121999, z: 0.6375618}
+      rotation: {x: -0.26819035, y: -0.6536805, z: 0.6597956, w: -0.25582325}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: R.Menique2
+      parentName: R.Menique
+      position: {x: -0.00000022735912, y: 0.092555664, z: -0.000000013213139}
+      rotation: {x: -0.013477118, y: -0.0009402847, z: -0.038753808, w: 0.9991575}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: R.Menique3
+      parentName: R.Menique2
+      position: {x: -0.00000023015309, y: 0.12831382, z: -0.0000000119325705}
+      rotation: {x: -0.030298991, y: -0.004654897, z: 0.0011786885, w: 0.99952936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Menique3_end
+      parentName: R.Menique3
+      position: {x: -0, y: 0.088425055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Anular
+      parentName: Armature
+      position: {x: 3.030256, y: -0.24010418, z: 0.6375052}
+      rotation: {x: -0.26675832, y: -0.64410573, z: 0.67390275, w: -0.24458732}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: R.Anular2
+      parentName: R.Anular
+      position: {x: -0.00000025960617, y: 0.102297224, z: -0.0000000018626451}
+      rotation: {x: -0.012770673, y: -0.0052705873, z: -0.016669357, w: 0.99976563}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: R.Anular3
+      parentName: R.Anular2
+      position: {x: -0.00000016624108, y: 0.16381457, z: -0.000000007450581}
+      rotation: {x: -0.00027684617, y: -0.04270644, z: 0.019252235, w: 0.99890214}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999976}
+    - name: R.Anular3_end
+      parentName: R.Anular3
+      position: {x: -0, y: 0.104489006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.DedoMedio
+      parentName: Armature
+      position: {x: 3.030256, y: -0.3491333, z: 0.65198314}
+      rotation: {x: -0.2524954, y: -0.6503493, z: 0.67847353, w: -0.23014235}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R.DedoMedio2
+      parentName: R.DedoMedio
+      position: {x: -0.0000002370216, y: 0.107499875, z: 0.000000016763806}
+      rotation: {x: 0.03085436, y: -0.0050595924, z: -0.0024049082, w: 0.9995082}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: R.DedoMedio3
+      parentName: R.DedoMedio2
+      position: {x: 0.00000009755604, y: 0.16789125, z: -0.000000014901161}
+      rotation: {x: -0.0044936477, y: -0.04118734, z: 0.030086948, w: 0.9986882}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: R.DedoMedio3_end
+      parentName: R.DedoMedio3
+      position: {x: -0, y: 0.10431508, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Indice
+      parentName: Armature
+      position: {x: 3.030256, y: -0.46029213, z: 0.65198314}
+      rotation: {x: -0.26106864, y: -0.6172961, z: 0.71043545, w: -0.21463963}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: R.Indice2
+      parentName: R.Indice
+      position: {x: -0.00000008009374, y: 0.08883657, z: 0.000000018626451}
+      rotation: {x: 0.0014369475, y: -0.0050937934, z: 0.034993615, w: 0.9993735}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R.Indice3
+      parentName: R.Indice2
+      position: {x: -0.0000002378365, y: 0.16918296, z: -0.000000007450581}
+      rotation: {x: -0.01706929, y: -0.039907448, z: -0.012272073, w: 0.99898225}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: R.Indice3_end
+      parentName: R.Indice3
+      position: {x: -0, y: 0.11070905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Pulgar
+      parentName: Armature
+      position: {x: 2.8980012, y: -0.5495421, z: 0.8195915}
+      rotation: {x: -0.28000262, y: -0.51484185, z: 0.7931167, w: -0.16583811}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R.Pulgar2
+      parentName: R.Pulgar
+      position: {x: -0.000000016763806, y: 0.119210064, z: 0.000000022351742}
+      rotation: {x: -0.0848682, y: 0.0012994198, z: 0.040230215, w: 0.9955789}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: R.Pulgar3
+      parentName: R.Pulgar2
+      position: {x: -0.0000003449095, y: 0.16965814, z: -0.000000044703484}
+      rotation: {x: -0.026728734, y: -0.003874083, z: -0.035824694, w: 0.9989931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Pulgar3_end
+      parentName: R.Pulgar3
+      position: {x: -0, y: 0.06305919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Pierna
+      parentName: Armature
+      position: {x: 0.43802705, y: -0.12063351, z: -0.01875607}
+      rotation: {x: 0.035083126, y: 0.7559925, z: -0.65209514, w: 0.044906158}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: R.Pantorrilla
+      parentName: R.Pierna
+      position: {x: 0.000000019092113, y: 1.6874257, z: -0.000000017695129}
+      rotation: {x: 0.024741955, y: 0.0007808987, z: -0.010052088, w: 0.9996431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.PlantaDePie
+      parentName: R.Pantorrilla
+      position: {x: 0.000000029802322, y: 2.2509537, z: 0.000000014901161}
+      rotation: {x: 0.68761814, y: -0.000000034039907, z: -0.01418455, w: 0.725934}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: R.DedosDePie
+      parentName: R.PlantaDePie
+      position: {x: 0.000000010826625, y: 0.46032658, z: 0.00000016018748}
+      rotation: {x: 0.0021028575, y: -0.000000005151425, z: 0.00015205883, w: 0.9999978}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: R.DedosDePie_end
+      parentName: R.DedosDePie
+      position: {x: -0, y: 0.42071322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.002
+      parentName: LowPoly(Clone)
+      position: {x: 11.572331, y: -0.000000014901161, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.001
+      parentName: LowPoly(Clone)
+      position: {x: 11.57233, y: -0.093322426, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1.4679451, y: 1.4679451, z: 1.4679451}
+    - name: Centro
+      parentName: Armature.001
+      position: {x: -0, y: -0.085911974, z: 0}
+      rotation: {x: 0.74214786, y: -0.00000007989842, z: -0.00000008847094, w: 0.6702363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TorsoBajo
+      parentName: Centro
+      position: {x: -1.3839401e-15, y: 0.779089, z: -0.000000007450581}
+      rotation: {x: -0.034406774, y: 0.000000119138754, z: 0.000000004101608, w: 0.99940795}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: TorsoAlto
+      parentName: TorsoBajo
+      position: {x: -0, y: 0.6869976, z: -0.000000014901161}
+      rotation: {x: -0.030816503, y: -0.00000011915271, z: 0.0000000036736127, w: 0.99952507}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Pecho
+      parentName: TorsoAlto
+      position: {x: -2.5937258e-15, y: 0.65591466, z: -0.000000007450581}
+      rotation: {x: -0.13485675, y: 0.00000023624072, z: -1.1718446e-17, w: 0.9908651}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Cuello
+      parentName: Pecho
+      position: {x: -2.3910009e-14, y: 0.90097064, z: 0.000000029802322}
+      rotation: {x: 0.31935075, y: -0.0000002259343, z: 4.5259274e-15, w: 0.9476366}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cabeza
+      parentName: Cuello
+      position: {x: 1.1617129e-14, y: 0.36722416, z: -0.000000074505806}
+      rotation: {x: -0.05712315, y: 5.24002e-14, z: 0.00000001361922, w: 0.99836713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cabeza_end
+      parentName: Cabeza
+      position: {x: -0, y: 0.9069779, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Brazo
+      parentName: Armature.001
+      position: {x: -0.809978, y: 0.12521303, z: 2.571739}
+      rotation: {x: 0.30008754, y: -0.6270323, z: 0.65990424, w: 0.28513917}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: L.Antebrazo
+      parentName: L.Brazo
+      position: {x: 0.00000023909342, y: 1.03331, z: -0.000000007450581}
+      rotation: {x: 0.08323047, y: -0.002302442, z: -0.017027015, w: 0.9963822}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: L.Palma
+      parentName: L.Antebrazo
+      position: {x: -0.000000050290282, y: 1.4127898, z: 0.000000037252903}
+      rotation: {x: -0.03528498, y: 0.0034884945, z: 0.04789495, w: 0.9982229}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: L.Palma_end
+      parentName: L.Palma
+      position: {x: -0, y: 0.47279063, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Menique
+      parentName: Armature.001
+      position: {x: -3.0242825, y: -0.12121999, z: 0.6375618}
+      rotation: {x: 0.26819035, y: -0.6536805, z: 0.6597956, w: 0.25582325}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: L.Menique2
+      parentName: L.Menique
+      position: {x: -0.000000011059456, y: 0.092555664, z: -0.000000009487849}
+      rotation: {x: -0.013477118, y: 0.0009402847, z: 0.038753808, w: 0.9991575}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: L.Menique3
+      parentName: L.Menique2
+      position: {x: 0.00000023015309, y: 0.12831382, z: -0.000000011350494}
+      rotation: {x: -0.030298991, y: 0.004654897, z: -0.0011786885, w: 0.99952936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Menique3_end
+      parentName: L.Menique3
+      position: {x: -0, y: 0.088425055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Anular
+      parentName: Armature.001
+      position: {x: -3.030254, y: -0.24010418, z: 0.6375052}
+      rotation: {x: 0.26675832, y: -0.64410573, z: 0.67390275, w: 0.24458732}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: L.Anular2
+      parentName: L.Anular
+      position: {x: 0.000000021187589, y: 0.102297224, z: 0.0000000055879354}
+      rotation: {x: -0.012770673, y: 0.0052705873, z: 0.016669357, w: 0.99976563}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: L.Anular3
+      parentName: L.Anular2
+      position: {x: -0.0000000721775, y: 0.16381457, z: -0.000000007450581}
+      rotation: {x: -0.00027684617, y: 0.04270644, z: -0.019252235, w: 0.99890214}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999976}
+    - name: L.Anular3_end
+      parentName: L.Anular3
+      position: {x: -0, y: 0.104489006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.DedoMedio
+      parentName: Armature.001
+      position: {x: -3.030254, y: -0.3491333, z: 0.65198314}
+      rotation: {x: 0.2524954, y: -0.6503493, z: 0.67847353, w: 0.23014235}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L.DedoMedio2
+      parentName: L.DedoMedio
+      position: {x: -0.0000000013969839, y: 0.107499994, z: 0.000000016763806}
+      rotation: {x: 0.03085436, y: 0.0050595924, z: 0.0024049082, w: 0.9995082}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: L.DedoMedio3
+      parentName: L.DedoMedio2
+      position: {x: -0.00000009755604, y: 0.16789125, z: 0}
+      rotation: {x: -0.0044936477, y: 0.04118734, z: -0.030086948, w: 0.9986882}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: L.DedoMedio3_end
+      parentName: L.DedoMedio3
+      position: {x: -0, y: 0.10431508, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Indice
+      parentName: Armature.001
+      position: {x: -3.030254, y: -0.46029213, z: 0.65198314}
+      rotation: {x: 0.26106864, y: -0.6172961, z: 0.71043545, w: 0.21463963}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: L.Indice2
+      parentName: L.Indice
+      position: {x: 0.00000008009374, y: 0.088836454, z: 0.000000018626451}
+      rotation: {x: 0.0014369475, y: 0.0050937934, z: -0.034993615, w: 0.9993735}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L.Indice3
+      parentName: L.Indice2
+      position: {x: -0.00000023900066, y: 0.16918296, z: 0.000000007450581}
+      rotation: {x: -0.01706929, y: 0.039907448, z: 0.012272073, w: 0.99898225}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: L.Indice3_end
+      parentName: L.Indice3
+      position: {x: -0, y: 0.11070905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Pulgar
+      parentName: Armature.001
+      position: {x: -2.8979983, y: -0.5495421, z: 0.8195915}
+      rotation: {x: 0.28000262, y: -0.51484185, z: 0.7931167, w: 0.16583811}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L.Pulgar2
+      parentName: L.Pulgar
+      position: {x: 0.00000025518239, y: 0.119210064, z: -0.000000037252903}
+      rotation: {x: -0.0848682, y: -0.0012994198, z: -0.040230215, w: 0.9955789}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: L.Pulgar3
+      parentName: L.Pulgar2
+      position: {x: 0.0000003449095, y: 0.16965826, z: -0.000000044703484}
+      rotation: {x: -0.026728734, y: 0.003874083, z: 0.035824694, w: 0.9989931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Pulgar3_end
+      parentName: L.Pulgar3
+      position: {x: -0, y: 0.06305919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.Pierna
+      parentName: Armature.001
+      position: {x: -0.43802547, y: -0.12063351, z: -0.01875607}
+      rotation: {x: -0.035083126, y: 0.7559925, z: -0.65209514, w: -0.044906158}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: L.Pantorrilla
+      parentName: L.Pierna
+      position: {x: 0.000000040512532, y: 1.6874257, z: -0.000000022351742}
+      rotation: {x: 0.024741955, y: -0.0007808987, z: 0.010052088, w: 0.9996431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L.PlantaDePie
+      parentName: L.Pantorrilla
+      position: {x: -0, y: 2.2509537, z: 0.000000017695129}
+      rotation: {x: 0.68761814, y: 0.000000034039907, z: 0.01418455, w: 0.725934}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: L.DedosDePie
+      parentName: L.PlantaDePie
+      position: {x: 0.00000004877802, y: 0.46032658, z: 0.000000033527613}
+      rotation: {x: 0.0021028575, y: 0.000000005151425, z: -0.00015205883, w: 0.9999978}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: L.DedosDePie_end
+      parentName: L.DedosDePie
+      position: {x: -0, y: 0.42071322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Brazo
+      parentName: Armature.001
+      position: {x: 0.80997944, y: 0.12521303, z: 2.571739}
+      rotation: {x: -0.30008754, y: -0.6270323, z: 0.65990424, w: -0.28513917}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: R.Antebrazo
+      parentName: R.Brazo
+      position: {x: -0.00000023909342, y: 1.0333102, z: 0.0000000037252903}
+      rotation: {x: 0.08323047, y: 0.002302442, z: 0.017027015, w: 0.9963822}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: R.Palma
+      parentName: R.Antebrazo
+      position: {x: 0.000000050290282, y: 1.41279, z: 0.000000037252903}
+      rotation: {x: -0.03528498, y: -0.0034884945, z: -0.04789495, w: 0.9982229}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: R.Palma_end
+      parentName: R.Palma
+      position: {x: -0, y: 0.47279063, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Menique
+      parentName: Armature.001
+      position: {x: 3.0242863, y: -0.12121999, z: 0.6375618}
+      rotation: {x: -0.26819035, y: -0.6536805, z: 0.6597956, w: -0.25582325}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: R.Menique2
+      parentName: R.Menique
+      position: {x: -0.00000022735912, y: 0.092555664, z: -0.000000009487849}
+      rotation: {x: -0.013477118, y: -0.0009402847, z: -0.038753808, w: 0.9991575}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: R.Menique3
+      parentName: R.Menique2
+      position: {x: 0.000000008265488, y: 0.12831382, z: -0.000000012340024}
+      rotation: {x: -0.030298991, y: -0.004654897, z: 0.0011786885, w: 0.99952936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Menique3_end
+      parentName: R.Menique3
+      position: {x: -0, y: 0.088425055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Anular
+      parentName: Armature.001
+      position: {x: 3.0302582, y: -0.24010418, z: 0.6375052}
+      rotation: {x: -0.26675832, y: -0.64410573, z: 0.67390275, w: -0.24458732}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: R.Anular2
+      parentName: R.Anular
+      position: {x: -0.00000025960617, y: 0.102297224, z: -0.0000000018626451}
+      rotation: {x: -0.012770673, y: -0.0052705873, z: -0.016669357, w: 0.99976563}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: R.Anular3
+      parentName: R.Anular2
+      position: {x: -0.00000016624108, y: 0.16381457, z: -0.000000022351742}
+      rotation: {x: -0.00027684617, y: -0.04270644, z: 0.019252235, w: 0.99890214}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999976}
+    - name: R.Anular3_end
+      parentName: R.Anular3
+      position: {x: -0, y: 0.104489006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.DedoMedio
+      parentName: Armature.001
+      position: {x: 3.0302582, y: -0.3491333, z: 0.65198314}
+      rotation: {x: -0.2524954, y: -0.6503493, z: 0.67847353, w: -0.23014235}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R.DedoMedio2
+      parentName: R.DedoMedio
+      position: {x: -0.0000002370216, y: 0.107499994, z: 0.000000016763806}
+      rotation: {x: 0.03085436, y: -0.0050595924, z: -0.0024049082, w: 0.9995082}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: R.DedoMedio3
+      parentName: R.DedoMedio2
+      position: {x: 0.00000009755604, y: 0.16789137, z: 0}
+      rotation: {x: -0.0044936477, y: -0.04118734, z: 0.030086948, w: 0.9986882}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: R.DedoMedio3_end
+      parentName: R.DedoMedio3
+      position: {x: -0, y: 0.10431508, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Indice
+      parentName: Armature.001
+      position: {x: 3.0302582, y: -0.46029213, z: 0.65198314}
+      rotation: {x: -0.26106864, y: -0.6172961, z: 0.71043545, w: -0.21463963}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: R.Indice2
+      parentName: R.Indice
+      position: {x: -0.00000008009374, y: 0.088836454, z: 0.000000018626451}
+      rotation: {x: 0.0014369475, y: -0.0050937934, z: 0.034993615, w: 0.9993735}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R.Indice3
+      parentName: R.Indice2
+      position: {x: 5.820766e-10, y: 0.16918296, z: -0.000000007450581}
+      rotation: {x: -0.01706929, y: -0.039907448, z: -0.012272073, w: 0.99898225}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: R.Indice3_end
+      parentName: R.Indice3
+      position: {x: -0, y: 0.11070905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Pulgar
+      parentName: Armature.001
+      position: {x: 2.8980026, y: -0.5495421, z: 0.8195915}
+      rotation: {x: -0.28000262, y: -0.51484185, z: 0.7931167, w: -0.16583811}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R.Pulgar2
+      parentName: R.Pulgar
+      position: {x: -0.000000016763806, y: 0.11921018, z: 0.000000022351742}
+      rotation: {x: -0.0848682, y: 0.0012994198, z: 0.040230215, w: 0.9955789}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: R.Pulgar3
+      parentName: R.Pulgar2
+      position: {x: -0.000000106490916, y: 0.16965814, z: -0.000000029802322}
+      rotation: {x: -0.026728734, y: -0.003874083, z: -0.035824694, w: 0.9989931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Pulgar3_end
+      parentName: R.Pulgar3
+      position: {x: -0, y: 0.06305919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.Pierna
+      parentName: Armature.001
+      position: {x: 0.43802738, y: -0.12063351, z: -0.01875607}
+      rotation: {x: 0.035083126, y: 0.7559925, z: -0.65209514, w: 0.044906158}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: R.Pantorrilla
+      parentName: R.Pierna
+      position: {x: -0.000000040512532, y: 1.6874257, z: -0.00000002514571}
+      rotation: {x: 0.024741955, y: 0.0007808987, z: -0.010052088, w: 0.9996431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R.PlantaDePie
+      parentName: R.Pantorrilla
+      position: {x: 0.000000029802322, y: 2.2509537, z: 0.000000016763806}
+      rotation: {x: 0.68761814, y: -0.000000034039907, z: -0.01418455, w: 0.725934}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: R.DedosDePie
+      parentName: R.PlantaDePie
+      position: {x: -0.00000004877802, y: 0.46032658, z: 0.00000013411045}
+      rotation: {x: 0.0021028575, y: -0.000000005151425, z: 0.00015205883, w: 0.9999978}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: R.DedosDePie_end
+      parentName: R.DedosDePie
+      position: {x: -0, y: 0.42071322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

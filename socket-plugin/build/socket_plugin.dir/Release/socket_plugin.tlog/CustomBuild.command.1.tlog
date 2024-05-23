@@ -1,0 +1,46 @@
+^C:\USERS\34638\DESKTOP\TFG\REPO\VIRTUAL-DRUMMER\SOCKET-PLUGIN\RESOURCE\PLUG_EDITOR.UIDESC
+setlocal
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E copy_if_different C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/plug_editor.uidesc C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/plug_editor.uidesc
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/plug_editor.uidesc to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/plug_editor.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\34638\DESKTOP\TFG\REPO\VIRTUAL-DRUMMER\SOCKET-PLUGIN\RESOURCE\E14C8B5BA50159B6AF44B15F5E925D59_SNAPSHOT.PNG
+setlocal
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E copy_if_different C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\34638\DESKTOP\TFG\REPO\VIRTUAL-DRUMMER\SOCKET-PLUGIN\RESOURCE\E14C8B5BA50159B6AF44B15F5E925D59_SNAPSHOT_2.0X.PNG
+setlocal
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E copy_if_different C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Release/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\34638\DESKTOP\TFG\REPO\VIRTUAL-DRUMMER\SOCKET-PLUGIN\CMAKELISTS.TXT
+setlocal
+"D:\Archivos de Programa 2\cmake-3.28.1\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -SC:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin -BC:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build --check-stamp-file C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

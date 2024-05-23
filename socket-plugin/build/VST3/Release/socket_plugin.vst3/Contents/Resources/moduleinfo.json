@@ -1,0 +1,51 @@
+{
+  "Name": "socket_plugin",
+  "Version": "1.0.0.0",
+  "Factory Info": {
+    "Vendor": "Carlos Bermejo",
+    "URL": "https://www.github.com/carlos-bermejo",
+    "E-Mail": "mailto:deynox.sw@gmail.com",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "E14C8B5BA50159B6AF44B15F5E925D59",
+      "Category": "Audio Module Class",
+      "Name": "socket-plugin",
+      "Vendor": "Carlos Bermejo",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.10",
+      "Sub Categories": [
+        "Instrument",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+        {
+          "Scale Factor": 1,
+          "Path": "Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png",
+        },
+        {
+          "Scale Factor": 2,
+          "Path": "Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png",
+        },
+      ],
+    },
+    {
+      "CID": "ACB17582B95F5A5AABAB5F0DBF0E4E1F",
+      "Category": "Component Controller Class",
+      "Name": "socket-pluginController",
+      "Vendor": "Carlos Bermejo",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.10",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

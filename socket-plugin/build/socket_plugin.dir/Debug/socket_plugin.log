@@ -1,0 +1,13 @@
+﻿  Generating VST3/Debug/socket_plugin.vst3/Contents/Resources/plug_editor.uidesc
+  [SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/plug_editor.uidesc to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Debug/socket_plugin.vst3/Contents/Resources/plug_editor.uidesc
+  Generating VST3/Debug/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png
+  [SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Debug/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot.png
+  Generating VST3/Debug/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png
+  [SMTG] Copied C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/resource/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png to C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/build/VST3/Debug/socket_plugin.vst3/Contents/Resources/Snapshots/E14C8B5BA50159B6AF44B15F5E925D59_snapshot_2.0x.png
+  Building Custom Rule C:/Users/34638/Desktop/TFG/repo/Virtual-Drummer/socket-plugin/CMakeLists.txt
+  plug_processor.cpp
+  plug_controller.cpp
+  plug_entry.cpp
+  dllmain.cpp
+C:\Users\34638\Desktop\TFG\repo\Virtual-Drummer\socket-plugin\source\plug_processor.cpp(65,25): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+LINK : fatal error LNK1104: no se puede abrir el archivo 'lib\Release\vstgui_support.lib'

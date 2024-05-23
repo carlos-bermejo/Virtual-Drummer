@@ -48,6 +48,10 @@ public:
 	Steinberg::tresult PLUGIN_API setState (Steinberg::IBStream* state) SMTG_OVERRIDE;
 	Steinberg::tresult PLUGIN_API getState (Steinberg::IBStream* state) SMTG_OVERRIDE;
 
+	//project-specific functions
+	void sendToUnity(const char* data);
+	void PrintToLogFile(const char* message);
+
 //------------------------------------------------------------------------
 protected:
 
