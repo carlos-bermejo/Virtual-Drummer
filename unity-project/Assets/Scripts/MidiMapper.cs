@@ -82,7 +82,7 @@ public class MidiMapper : MonoBehaviour
             drummerAnimator.HitInstrument(leftTargetHand, splashChinaCymbalPosition, LeftHandOriginalPosition);
         else if (note == 51 || note == 53 || note == 59)
             //ride cymbal
-            drummerAnimator.HitInstrument(leftTargetHand, rideCymbalPosition, LeftHandOriginalPosition);
+            drummerAnimator.HitInstrument(rightTargetHand, rideCymbalPosition, LeftHandOriginalPosition);
         else
         {
             //default

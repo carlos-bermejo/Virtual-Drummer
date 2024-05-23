@@ -324,8 +324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ad9be2e8776db439392d1dcab35604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intervalInSeconds: 0.2
-  notesToSend: 24000000250000002f000000330000003c000000
+  intervalInSeconds: 0.125
+  notesToSend: 310000003b0000003b0000002700000037000000
 --- !u!4 &90973568
 Transform:
   m_ObjectHideFlags: 0
